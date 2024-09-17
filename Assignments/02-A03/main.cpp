@@ -72,10 +72,14 @@ int main() {
     // C1.Push(22);
     // C1.Push(99);
     // C1.Push(100);
-
-    C1.Push(1);
-    C1.Push(2);
-    C1.Push(3);
+    int x;
+    cin >> x; 
+    
+    C1.Push(x);
+    cin >> x;
+    C1.Push(x);
+    cin >> x;
+    C1.Push(x);
     // C1.Push(6);
     // C1.Push(7);
     cout << C1 << endl;
